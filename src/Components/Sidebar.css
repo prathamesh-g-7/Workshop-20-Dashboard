@@ -1,0 +1,126 @@
+.Sidebar {
+  height: 100%;
+  background-color: #e8f5fe;
+}
+
+.Sidebar__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px 10px 15px;
+}
+
+.Sidebar__top > h5 {
+  font-size: 14px;
+  color: #414141;
+}
+
+.Sidebar__topArrow {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.Sidebar__topArrow > .MuiSvgIcon-root {
+  font-size: 16px;
+}
+
+.Sidebar__searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.sidebar__searchBoxInput {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.5px solid #ececec;
+  border-radius: 3px;
+}
+
+.sidebar__searchBoxInput > input {
+  border: none;
+  height: 23px;
+  width: 240px;
+  padding: 5px;
+  outline: none;
+}
+
+.sidebar__searchBoxInput > .MuiSvgIcon-root {
+  color: #808080;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.Sidebar__gridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sidebar__cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00a0f0;
+}
+
+.Sidebar__cardContainerNormal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.Sidebar__cardContainer > .MuiSvgIcon-root {
+  font-size: 18px;
+  color: #43c43f;
+}
+.Sidebar__cardContainerNormal > .MuiSvgIcon-root {
+  font-size: 18px;
+  color: #43c43f;
+}
+
+#red {
+  font-size: 18px;
+  color: #ff462c;
+}
+
+.cardInfo {
+  display: flex;
+}
+
+.textInfo {
+  padding-left: 10px;
+}
+.normalInfo {
+  padding-left: 10px;
+}
+
+.textInfo > h3 {
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.textInfo > h5 {
+  color: #fff;
+  font-weight: 400;
+  padding-top: 3px;
+}
+
+.normalInfo > h3 {
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 0.2px;
+  color: #262626;
+}
+.normalInfo > h5 {
+  color: #262626;
+  font-weight: 400;
+  padding-top: 3px;
+}
